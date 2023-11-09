@@ -12,8 +12,8 @@ app.get('/orders', async () => {
 
 app
   .listen({
-    port: 31000,
+    port: 4000,
   })
   .then(() => {
-    console.log('Http server running on http://localhost:31000')
+    console.log('Http server running on http://localhost:4000')
   })
