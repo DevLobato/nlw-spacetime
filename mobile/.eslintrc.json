@@ -1,5 +1,8 @@
 {
-  "extends": [
-    "@rocketseat/eslint-config/react"
-  ]
+  "compilerOptions": {
+    "types": [
+      "nativewind/types"
+    ]
+  },
+  "extends": "expo/tsconfig.base"
 }
